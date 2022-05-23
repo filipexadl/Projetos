@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url(imagens/bg.png);
+    margin: 5px;
+    
+    
+}
+
+header {
+   
+    height: 250px;
+
+    margin: 0 auto;
+    max-width: 1250px;
+    min-width: 660px;
+}
+
+#fundo-topo {
+    width: 100%;
+    height: 300px;
+    background-image: url(imagens/topo-imagem-principal2.png);
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+#logo {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    z-index: 0;
+}
+
+#menu-topo {
+    width: 520px;
+    height: 250px;
+    background-image: url(imagens/topo-imagem-lateral.png);
+    position: relative;
+    float: right;
+    z-index: 1;
+
+}
+
+.topo-hr {
+    margin: 0 auto;
+    width: 480px;
+    border-top: 1px solid #b5ab56;
+    border-bottom: 1px solid #b5ab56;
+    margin-top: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+}
+
+span{
+    color: #b5ab56;
+
+}
+
+button {
+    width: 121px;
+    height: 30px;
+    position: relative;
+    left: 50px;
+    text-transform: uppercase;
+    border: transparent;
+    background-color: #a29750;
+    cursor: pointer;
+    color: #fff5b0;
+
+}
+
+
+
+button a {
+    display: block;
+    
+}
+
+#menu {
+    position: absolute;
+    left: 100px;
+    top: 65px;
+    width: 100px;
+    margin: 0;
+
+}
+
+#menu ul {
+
+    padding: 0;
+    width: 150px;
+}
+
+#menu ul li {
+    padding: 6px;
+    display: block;
+    width: 90px;
+    
+
+}
+
+.img-topo {
+    position: absolute;
+    left: 240px;
+    top: 65px;
+}
+
+
+
+#menu ul li a {
+    text-align: center;
+    width: auto;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #6e672c;
+}
+
+#menu ul li a:hover{
+    background-color: #fdf6be;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info1 {
+    width: auto;
+    height: 250px;
+    background-color: #dad07d;
+    margin: 5px;
+    position: relative;
+}
+
+
+nav {
+    margin: 0 auto;
+    max-width: 1350px;
+    min-width: 660px;
+    max-width: 1250px;
+    margin-top: 5px;
+
+}
+
+#conteudo-meio {
+
+    height: 900px;
+
+    max-width: 1450px;
+    min-width: 600px;
+}
+
+.containner1 {
+    max-width: 600px;
+    min-width: 300px;
+    height: auto;
+    
+
+}
+
+.conteinner1-conteudo {
+    background-color: #fdf6be;
+    max-width: 600px;
+    min-width: 350px;
+    height: 900px;
+
+
+}
+
+.imglateral{
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
+
+.info1:hover{
+    background-color:#faf4d6;
+    padding: 10px;
+    transition: 2s;
+}
+.text-lateral{
+    max-width: 350px;
+    min-width: 250px;
+    height: 170px;
+    position: absolute;
+    left: 300px;
+    bottom: 40px;
+}
+
+.conteudo-lateralh1{
+    color: #ffffff;
+}
+
+.conteudo-lateralp{
+    color: #3a3823;
+
+}
+
+
+
+
+
+.conteinner1-conteudo h1 {
+    padding: 20px 0px 10px 10px;
+    color: #6e672c;
+
+}
+
+.conteinner1-conteudo p {
+    padding: 10px;
+    color: black;
+}
+
+#conteinnerlateral {
+    float: right;
+    left: 700px;
+    height: 900px;
+    max-width: 460px;
+    min-width: 55%;
+    background-color: #dad07d;
+    
+
+}
+
+#and {
+    width: 150px;
+    height: 150px;
+    clear: both;
+
+}
+
+
+
+
+
+#roda-pe{
+    width: auto;
+    height: 15px;
+    background-color: #dad07d;
+}
+
+#roda-pe a{
+    color: rgba(0, 0, 0, 0.712);
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#roda-pe a:hover{
+    color: #faf4d6;
+    background-color: #6e672c;
+}
+
+
+
+

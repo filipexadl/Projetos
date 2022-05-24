@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body {
+    height: auto;
+}
+
+nav {}
+
+#conteudo1 {
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 1000px;
+    display: flex;
+    background-image: url(imagens/imagem1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#conteudo2 {
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    height: auto;
+    background-attachment: fixed;
+
+}
+
+#conteudo3 {
+    width: auto;
+    background-image: url(imagens/imagem2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 1000px;
+    display: flex;
+}
+
+#conteudo5 {
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 1000px;
+    display: flex;
+    background-image: url(imagens/imagem3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#conteudo6 {
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 1000px;
+    display: flex;
+    background-image: url(imagens/imagem4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#conteudo7 {
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 1000px;
+    display: flex;
+    background-image: url(imagens/imagem6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#conteudo8 {
+    width: auto;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    background-image: url(imagens/imagem5.jpg);
+    background-repeat: repeat;
+    background-size: 120%;
+    background-attachment: fixed;
+}
+
+
+
+.conteinner {
+    display: flex;
+    align-self: center;
+    margin: 0 auto;
+    width: 550px;
+    height: 100px;
+    background-color: rgb(97, 95, 99);
+
+
+}
+
+
+a {
+    display: flex;
+    align-self: center;
+    margin: 0 auto;
+    font-size: 2.8rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Odibee Sans', cursive;
+
+}
+
+p {
+    padding: 25px;
+    align-self: center;
+    font-weight: 600;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    color: rgb(5, 5, 5);
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+
+}
